@@ -9,7 +9,7 @@ for (int i = 0; i < N; i++)
 int sum = 0; //сумма чисел массива
 for (int i = 0; i < N; i++)
 {
-    sum = (sum + array[i]);
+    sum = sum + array[i];
 }
 double A = sum / N; //среднее арифметическое
 Console.WriteLine(A);
